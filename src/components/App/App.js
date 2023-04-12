@@ -18,7 +18,9 @@ function App() {
     <div className="App">
       <h1>JSX will go here!</h1>
       <Input text={text} handleChange={handleChange} />
-      <Item text={text} />
+      <Item text={text} fontSize="2em" font="Monaco" />
+      <Item text={text} fontSize="2em" font="Rockwell Extra Bold" />
+      <Item text={text} fontSize="2em" font="Brush Script MT" />
     </div>
   );
 }
